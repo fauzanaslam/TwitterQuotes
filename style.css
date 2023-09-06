@@ -1,0 +1,71 @@
+body {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/Tweet.svg);
+}
+
+.container {
+  width: 601px;
+  height: fit-content;
+  padding: 35px 31px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 36px 4px rgba(29, 161, 242, 0.35);
+  -webkit-box-shadow: 2px 2px 36px 4px rgba(29, 161, 242, 0.35);
+  -moz-box-shadow: 2px 2px 36px 4px rgba(29, 161, 242, 0.35);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.profile {
+  display: flex;
+  gap: 22px;
+}
+
+.name-full {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.name-username {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.caption {
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+span {
+  color: #1da1f2;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+h5 {
+  margin: 0;
+  color: rgb(0, 0, 0, 0.6);
+}
